@@ -13,11 +13,11 @@ function setup(){
   
   createCanvas(400,400);
   
-// Moving background
+// Mover el fondo
 garden=createSprite(200,200);
 garden.addImage(gardenImg);
 
-//creating boy running
+//crear sprite de rabbit (conejo)
 rabbit = createSprite(180,340,30,30);
 rabbit.scale =0.09;
 rabbit.addImage(rabbitImg);
